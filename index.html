@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Praisee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Weather App by Praisee</h2>
+            <div id="time">
+                <p id="dateOutput"></p>
+                <p id="timeOutput"></p>
+            </div>
+            <div id="weatherDiv">
+    
+                <div id="temperature">
+                    <p id="temperature">16&#176;C</p>
+                </div>
+                <div id="location">
+                    
+                </div>
+                <div id="weatherIconAndDescription">
+                    <img src="" alt="Weather Icon" id="weatherIcon">
+                    <p id="description"></p>
+                </div>
+            </div>
+            <div id="panel">
+                <div id="search">
+                    <input type="search" name="searchBox" id="searchBox" placeholder="Search location...">
+                    <button type="button" id="searchBtn">Search</button>
+                </div>
+                <ul id="cities">
+                    <li class="city">Lagos</li>
+                    <li class="city">Paris</li>
+                    <li class="city">London</li>
+                    <li class="city">New York</li>
+                </ul>
+                <hr>
+                <div id="weatherDetails">
+                    <h2 class="detailsHeading">Weather Details</h2>
+                    <ul class="weatherDetailsList">
+                        <li>Feels like <span id="cloudy">12%</span></li>
+                        <li>Humidity <span id="humidity">84%</span></li>
+                    </ul>
+                </div><hr>
+            </div>
+    
+    
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
